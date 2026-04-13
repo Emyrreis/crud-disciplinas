@@ -27,7 +27,7 @@ def update_discipline(index, new_discipline):
     disciplines[index].update(new_discipline)
 
 
-def deletar_disciplina(index):
+def delete_discipline(index):
     if index >= len(disciplines):
         raise IndexError("Disciplina não encontrada")
 
