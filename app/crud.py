@@ -32,3 +32,4 @@ def delete_discipline(index):
         raise IndexError("Disciplina não encontrada")
 
     disciplines.pop(index)
+
